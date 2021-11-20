@@ -1,0 +1,11 @@
+./node_modules
+package-lock.json 
+package.json
+postcss.config.js
+tailwind.config.js
+# etc...
+
+# ...even if they are in subdirectories
+!*/
+
+# if the files to be tracked are in subdirectories

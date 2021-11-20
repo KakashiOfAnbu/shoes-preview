@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./build/tailwind.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<script src="https://use.fontawesome.com/6b9635316a.js"></script>
+	<title>Document</title>
+</head>
+
+<body>
+	<div class="container flex justify-center w-screen h-screen">
+		<div class="relative group mt-32 w-80 bg-gray-800 h-96 rounded-2xl">
+			<div class="text-white text-xl m-4 flex justify-between items-center">
+				<i class="relative z-10 fa fa-heart-o cursor-pointer before:cursor-pointer" aria-hidden="true"></i>
+				<i class="relative z-10 fa fa-shopping-cart cursor-pointer" aria-hidden="true"></i>
+			</div>
+			<div class="w-80 h-52 -mt-16">
+				<img class="w-full h-full object-cover main-img transition duration-500 group-hover:transform group-hover:rotate-20 group-hover:-translate-y-20 group-hover:translate-x-7"
+					src="https://cdn.shopify.com/s/files/1/0452/9497/7192/products/hong1.png?v=1625511549" alt="">
+			</div>
+			<div class="mt-2">
+				<h3
+					class="text-center text-pink-500 text-2xl font-semibold transition duration-500 group-hover:transform group-hover:-translate-y-14 group-hover:-translate-x-14">
+					Human Race</h3>
+				<h3
+					class="text-center text-white text-2xl font-semibold transition duration-500 group-hover:transform group-hover:-translate-y-14 group-hover:-translate-x-24">
+					$1029</h3>
+			</div>
+			<div
+				class="animated-content text-xl absolute bottom-0 h-40 pl-6 pb-4 pt-6 flex flex-col gap-y-3 text-white group-hover:opacity-100 transition duration-500 group-hover:transform group-hover:translate-y-0 transform translate-y-12 opacity-0">
+				<div class="flex items-center">
+					<span class="mr-2">Size:</span>
+					<button class="ml-2 bg-gray-300 text-black text-lg pr-2 pl-2 rounded-md">6</button>
+					<button class="ml-2 bg-gray-300 text-black text-lg pr-2 pl-2 rounded-md">7</button>
+					<button class="ml-2 bg-gray-300 text-black text-lg pr-2 pl-2 rounded-md">8</button>
+					<button class="ml-2 bg-gray-300 text-black text-lg pr-2 pl-2 rounded-md">9</button>
+				</div>
+				<div class="flex items-center">
+					<span class="mr-2">Color:</span>
+					<div class="w-5 ml-2 h-5 rounded-full bg-pink-500"></div>
+					<div class="w-5 ml-2 h-5 rounded-full bg-purple-500"></div>
+					<div class="w-5 ml-2 h-5 rounded-full bg-white"></div>
+				</div>
+				<div class="flex items-center text-sm gap-x-3">
+					<button class="pt-2 pb-2 pr-3 pl-3 bg-pink-600 rounded-sm transition transform hover:scale-90">Buy
+						now</button>
+					<button class="pt-2 pb-2 pr-3 pl-3 bg-pink-600 rounded-sm transition transform hover:scale-90">Add
+						cart</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- <script src="index.js"></script> -->
+</body>
+
+</html>
